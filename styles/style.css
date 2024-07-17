@@ -144,20 +144,20 @@
 }
 
 .lots__heading {
-  font-size: 40px;
-  font-weight: 700;
   margin: 0 0 27px 64px;
+  font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  padding: 0 24px;
   gap: 25px;
-  list-style: none;
   height: 563px;
   margin-top: 30p;
   margin-bottom: 30px;
+  padding: 0 24px;
+  list-style: none;
 }
 
 .lots__card-list-item {
@@ -165,12 +165,12 @@
 }
 
 .lots__look-more-link {
+  margin-left: 64px;
+  border-bottom: 1px solid #000;
+  font-weight: 400;
+  font-size: 20px;
   text-decoration: none;
   text-transform: lowercase;
-  margin-left: 64px;
-  font-size: 20px;
-  font-weight: 400;
-  border-bottom: 1px solid #000;
 }
 
 /* Card */
@@ -196,25 +196,25 @@
 }
 
 .card .overlay {
-  padding: 46px 40px;
-  height: 563px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 563px;
+  padding: 46px 40px;
 }
 
 .card__title {
   padding-top: 6px;
-  font-size: 22px;
   font-weight: 700;
-  text-transform: uppercase;
+  font-size: 22px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
-  line-height: 120%;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 
@@ -222,17 +222,17 @@
 
 .about {
   display: flex;
-  margin-top: 183px;
   gap: 2px;
   max-width: 1052px;
+  margin-top: 183px;
   
 }
 
 .about__logo {
-  background-color: #000;
-  border-radius: 50%;
   margin: 0 70px;
+  border-radius: 50%;
   padding: 63px 46px;
+  background-color: #000;
 }
 
 .about__logo-image {
@@ -240,40 +240,40 @@
 }
 
 .about__title {
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: 700;
   margin-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
-  font-size: 20px;
-  font-weight: 400;
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 100px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 /* Footer */
 
 .footer {
-	margin: 182px 50px 88px;
 	display: flex;
 	justify-content: space-between;
+	margin: 182px 50px 88px;
   
 }
 .footer__address {
-  font-size: 18px;
-  margin: 0px;
   width: 230px;
+  margin: 0px;
+  font-size: 18px;
 }
 
 .footer__menu {
   margin-left: 11px;
-	text-transform: lowercase;
 	font-size: 18px;
 	text-align: center;
+	text-transform: lowercase;
   
 }
 
