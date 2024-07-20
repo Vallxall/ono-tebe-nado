@@ -1,36 +1,34 @@
 
 /* Header */
 .header{
-		display: grid;
-		grid-template-columns: 1fr 148px 1fr;
-		max-width: 1052px;
-		margin:auto;
-		padding-top: 92px;
-		font-size: 18px;
-
+	display: grid;
+	grid-template-columns: 1fr 148px 1fr;
+	max-width: 1052px;
+	margin:auto;
+	padding-top: 92px;
+	font-size: 18px;
 }
 
 .header__menu{
 	display: flex;
 	align-items: center;
-	margin: auto;
-  
-	
+	margin: auto;  	
 }
 
 .header__links-list{
 	display: flex;
-	gap:30px;
+	gap: 33px;	
+  margin-right: 10px;
 	text-transform: lowercase;
-	list-style: circle;	
+	list-style: circle;
 }
 
 .header__links-list-item_no-bullit, .footer__menu-list{
 	list-style: none;
 }
 
-.header__link_active{
-	text-decoration: none;
+.header__link.header__link_active {
+  border-bottom: none;
 }
 
  .header__link, .address__link, .footer__menu-link {
@@ -44,17 +42,16 @@
 	
 }
 
-.address{
+.address, .footer__address{
+  width: 230px;
   margin-top: 4px; 
   margin-left: 187px;
+  font-size: 18px;
 	font-style: normal;
 	line-height: 25px;
 	list-style: none;
 }
-
-
-
-
+ 
  /* Cover  */
 
 .cover{
@@ -116,7 +113,6 @@
 
 .letter-spacing-extended {
   letter-spacing: 0.6em;
-	
 }
 
 /* No letter spacing */
@@ -131,6 +127,7 @@
   border: 1px solid #fff;
   padding: 10px 32px;
   color: #fff;
+  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
@@ -150,18 +147,22 @@
   text-transform: uppercase;
 }
 
+.lots__section_scroll{
+  display: flex;
+  margin-bottom: 13px;
+  overflow-x: auto;
+  }
+
 .lots__card-list {
   display: flex;
   gap: 25px;
-  height: 563px;
-  margin-top: 30p;
-  margin-bottom: 30px;
   padding: 0 24px;
   list-style: none;
+  
 }
 
 .lots__card-list-item {
-	width: 430px;
+	width: 334px;
 }
 
 .lots__look-more-link {
@@ -175,7 +176,12 @@
 
 /* Card */
 
-.card {
+.card .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 563px;
+  padding: 46px 40px;
   color: #fff;
 }
 
@@ -193,14 +199,6 @@
 
 .card-link {
   text-decoration: none;
-}
-
-.card .overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 563px;
-  padding: 46px 40px;
 }
 
 .card__title {
@@ -225,7 +223,6 @@
   gap: 2px;
   max-width: 1052px;
   margin-top: 183px;
-  
 }
 
 .about__logo {
@@ -263,10 +260,11 @@
 	margin: 182px 50px 88px;
   
 }
+
 .footer__address {
-  width: 230px;
   margin: 0px;
-  font-size: 18px;
+  padding-left: 2px;
+  line-height: 24px;
 }
 
 .footer__menu {
